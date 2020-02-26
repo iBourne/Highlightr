@@ -37,7 +37,7 @@ class SampleCode: UIViewController
         
         activityIndicator.isHidden = true
         languageName.text = "Swift"
-        themeName.text = "Pojoaque"
+        themeName.text = "ticktick.light"
         
         textStorage.language = languageName.text?.lowercased()
         let layoutManager = NSLayoutManager()

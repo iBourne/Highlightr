@@ -28,8 +28,8 @@ private typealias RPThemeStringDict = [String:[String:String]]
 
 /// Theme parser, can be used to configure the theme parameters. 
 open class Theme {
-    internal let theme : String
-    internal var lightTheme : String!
+    public let theme : String
+    public var lightTheme : String!
     
     /// Regular font to be used by this theme
     open var codeFont : RPFont!
@@ -49,7 +49,7 @@ open class Theme {
      
      - parameter themeString: Theme to use.
      */
-    init(themeString: String)
+    public init(themeString: String)
     {
         theme = themeString
         setCodeFont(RPFont(name: "Courier", size: 14)!)

@@ -33,7 +33,7 @@
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		719ED2C056FED45508B76D17 /* Highlightr.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Highlightr.podspec; path = ../Highlightr.podspec; sourceTree = "<group>"; };
+		719ED2C056FED45508B76D17 /* Highlightr.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Highlightr.podspec; path = ../Highlightr.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		81B00C74F80645E546387ECF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C0B8C331CBB03AF00338143 /* sampleCode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sampleCode.txt; sourceTree = "<group>"; };
 		8C653BDE1CFB677100A8CEFF /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
@@ -211,7 +211,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = RV92JH4QP5;
+						DevelopmentTeam = 75TY9UT8AY;
 						LastSwiftMigration = 0910;
 					};
 					8C9564251CE79E5200C0C7FA = {
@@ -225,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -307,7 +308,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
 				"${BUILT_PRODUCTS_DIR}/Highlightr-iOS/Highlightr.framework",
 			);
@@ -318,7 +319,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Highlightr_Example/Pods-Highlightr_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99E9E4A243E20636B6862D85 /* [CP] Embed Pods Frameworks */ = {
@@ -327,7 +328,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Highlightr-macOS/Highlightr.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -336,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Highlightr_OSX_Example/Pods-Highlightr_OSX_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -485,7 +486,7 @@
 			baseConfigurationReference = 4CF75D031FDF606D266D5CFE /* Pods-Highlightr_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RV92JH4QP5;
+				DEVELOPMENT_TEAM = 75TY9UT8AY;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = Highlightr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -502,7 +503,7 @@
 			baseConfigurationReference = FACBE1ED06E5718AE417DCC0 /* Pods-Highlightr_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RV92JH4QP5;
+				DEVELOPMENT_TEAM = 75TY9UT8AY;
 				INFOPLIST_FILE = Highlightr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
