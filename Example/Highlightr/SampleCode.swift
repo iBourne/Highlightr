@@ -70,7 +70,7 @@ class SampleCode: UIViewController
     @IBAction func pickLanguage(_ sender: AnyObject)
     {
         let languages = highlightr.supportedLanguages().sorted()
-        let indexOrNil = languages.index(of: languageName.text!.lowercased())
+        let indexOrNil = languages.firstIndex(of: languageName.text!.lowercased())
         let index = (indexOrNil == nil) ? 0 : indexOrNil!
         
         ActionSheetStringPicker.show(withTitle: "Pick a Language",
@@ -127,7 +127,7 @@ class SampleCode: UIViewController
     {
         hideKeyboard(nil)
         let themes = highlightr.availableThemes()
-        let indexOrNil = themes.index(of: themeName.text!.lowercased())
+        let indexOrNil = themes.firstIndex(of: themeName.text!.lowercased())
         let index = (indexOrNil == nil) ? 0 : indexOrNil!
         
         ActionSheetStringPicker.show(withTitle: "Pick a Theme",
